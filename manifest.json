@@ -5,17 +5,15 @@
   "description": "YouTube Profile Photo Viewer",
   "version": "1.0.0",
   "icons": { "128": "icon_128.png" },
-  "content_scripts": [
-    {
+  "content_scripts": [{
+
+      "css" : ["inject_main.css"],
+      "js": ["content.js"],
       "matches" : [
-        "https://www.youtube.com/*"
-      ],
-      "js": ["content.js"]
-    }
-  ],
-  "web_accessible_resources": [
-    "template.html"
-  ],
+        "https://www.youtube.com/*",
+        "file:///C:/Users/Atharva%20Kango/Desktop/*"
+      ]
+    }],
   "browser_action": {
     "default_icon": "icon.png",
     "default_popup": "popup.html"
