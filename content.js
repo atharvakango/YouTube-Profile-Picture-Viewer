@@ -30,7 +30,7 @@ x[0].style.cursor = "pointer";
 x[0].onclick = function() {
 	var t = x[0].children[0].getAttribute("src");
     modal.style.display = "block";
-    var newLink = t.replace("=s1", "=s10");
+    var newLink = t.replace("=s", "=s10");
     modalImg.src = newLink;
     // console.log(newLink);
     // window.location = newLink;
