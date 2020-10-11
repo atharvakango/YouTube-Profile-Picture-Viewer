@@ -1,4 +1,4 @@
-console.log("Chrome Extension ready to Go!");
+// console.log("Chrome Extension ready to Go!");
 
 
 // Creating the HTML for injection
@@ -32,7 +32,7 @@ x[0].onclick = function() {
     modal.style.display = "block";
     var newLink = t.replace("=s1", "=s10");
     modalImg.src = newLink;
-    console.log(newLink);
+    // console.log(newLink);
     // window.location = newLink;
 }
 
@@ -41,4 +41,4 @@ span.onclick = function() {
     modal.style.display = "none";
 }
 
-console.log("Chrome Extension Ended Execution!");
+console.log("YTPPV extension executed successfully!");

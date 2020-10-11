@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "YouTube Profile Photo Viewer",
-  "description": "YouTube Profile Photo Viewer",
+  "description": "YouTube Profile Photo Viewer for channels.",
   "version": "1.0.0",
   "icons": { "128": "icon_1.png" },
   "content_scripts": [{
@@ -10,8 +10,7 @@
       "css" : ["inject_main.css"],
       "js": ["content.js"],
       "matches" : [
-        "https://www.youtube.com/*",
-        "file:///C:/Users/Atharva%20Kango/Desktop/*"
+        "https://www.youtube.com/*"
       ]
     }],
   "browser_action": {
